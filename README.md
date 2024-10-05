@@ -98,7 +98,7 @@ Led a comprehensive IT infrastructure upgrade, significantly enhancing network p
 - Topology
 - Applied Discrete Math
 - Proof & Problem Solving
-- Differntial Equations,,,,.l
+- Differntial Equations
 - Cryptography
 
 
