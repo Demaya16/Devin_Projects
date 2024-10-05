@@ -20,7 +20,7 @@ Welcome to my professional portfolio! This repository showcases my projects, ski
 
 I am a passionate and adaptable undergraduate with a strong foundation in Mathematics, Economics, and Computer Science Engineering. With hands-on experience in software development, IT support, and engineering roles within the construction industry, I integrate technical expertise into practical, real-world solutions.
 
-- 🎓 Graduating from UC Santa Cruz with a B.A. in Mathematics/Economics and a Minor in Computer Science Engineering
+- 🎓 Graduated from UC Santa Cruz with a B.A. in Mathematics/Economics and a Minor in Computer Science Engineering
 - 💼 IT Specialist and General Contractor Apprentice at GM Construction
 - 🌱 Currently pursuing General B Contractor's License and CompTIA Certifications
 - 🔭 Interested in Mixed Martial Arts, Soccer, Neuroscience, Robotics, and more
