@@ -2,12 +2,6 @@
 
 <p align="center">
   <a href="https://demaya16.github.io/Devin_Projects/">
-    <img src="https://your-image-url.com/portfolio-preview.png" alt="Portfolio Preview" width="600">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://demaya16.github.io/Devin_Projects/">
     <img src="https://img.shields.io/badge/View_Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="View Portfolio">
   </a>
   <a href="https://linkedin.com/in/devin-maya16">
