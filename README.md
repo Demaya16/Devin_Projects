@@ -87,6 +87,3 @@ B.A. in Mathematics/Economics; Minor in Computer Science Engineering
 - **GitHub:** [github.com/demaya16](https://github.com/demaya16)
 - **LinkedIn:** [linkedin.com/in/devin-maya16](https://linkedin.com/in/devin-maya16)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
