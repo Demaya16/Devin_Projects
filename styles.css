@@ -92,7 +92,7 @@ nav .nav-links a:hover {
 
 .hero h2 {
     font-size: 64px; /* Larger font size */
-    color: #003366; /* Dark Blue */
+    color: #003366; /* Navy color for header */
     font-weight: 900; /* Bold for more impact */
     letter-spacing: 2px; /* Spacing between letters for style */
     text-transform: uppercase; /* Make text uppercase for emphasis */
@@ -102,14 +102,14 @@ nav .nav-links a:hover {
 
 .hero p {
     font-size: 32px; /* Increased font size for description */
-    color: #0052cc; /* Colombian Blue */
+    color: #003366; /* Navy color for the paragraph as well */
     margin-bottom: 40px;
     font-weight: 500;
     text-transform: capitalize;
 }
 
 .hero .social-links a {
-    color: #003366;
+    color: #003366; /* Navy color for social links */
     font-size: 32px; /* Larger icon size */
     margin: 0 15px; /* Increase spacing between icons */
 }
@@ -117,6 +117,7 @@ nav .nav-links a:hover {
 .hero .social-links a:hover {
     color: #ffcc00; /* Yellow on hover */
 }
+
 
 /* Section Titles */
 section h2 {
