@@ -73,7 +73,7 @@ nav .nav-links a:hover {
 /* Hero Section */
 .hero {
     background-color: #f9f9f9;
-    height: 700px; /* Increased height for more space */
+    height: 700px; /* Maintain height for space */
     text-align: center;
     position: relative;
     color: #003366; /* Dark Blue for text */
@@ -81,7 +81,7 @@ nav .nav-links a:hover {
         rgba(255, 255, 255, 0.8), 
         rgba(255, 255, 255, 0.8)
       ), url('images/hero-background.jpg') no-repeat center center/cover;
-    padding: 50px 0; /* Add padding for more space */
+    padding: 60px 0; /* Add padding for more space */
 }
 
 .hero .container {
@@ -91,26 +91,26 @@ nav .nav-links a:hover {
 }
 
 .hero h2 {
-    font-size: 64px; /* Larger font size */
+    font-size: 80px; /* Extra-large font size */
     color: #003366; /* Navy color for header */
-    font-weight: 900; /* Bold for more impact */
-    letter-spacing: 2px; /* Spacing between letters for style */
-    text-transform: uppercase; /* Make text uppercase for emphasis */
+    font-weight: 900; /* Bolder font */
+    letter-spacing: 3px; /* More spacing between letters */
+    text-transform: uppercase; /* Make text uppercase for strong impact */
     margin-bottom: 30px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for a bold effect */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2); /* Stronger text shadow */
 }
 
 .hero p {
-    font-size: 32px; /* Increased font size for description */
-    color: #003366; /* Navy color for the paragraph as well */
+    font-size: 40px; /* Larger font size for description */
+    color: #003366; /* Navy color */
     margin-bottom: 40px;
-    font-weight: 500;
+    font-weight: 600; /* Increased font weight */
     text-transform: capitalize;
 }
 
 .hero .social-links a {
     color: #003366; /* Navy color for social links */
-    font-size: 32px; /* Larger icon size */
+    font-size: 40px; /* Larger icon size */
     margin: 0 15px; /* Increase spacing between icons */
 }
 
