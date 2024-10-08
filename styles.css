@@ -267,15 +267,22 @@ section h2 {
 
 .contact-links a {
     font-size: 18px;
-    color: #0052cc; /* Blue */
+    color: #0052cc;
+    text-decoration: none;
     display: flex;
     align-items: center;
     gap: 10px;
+    transition: color 0.3s ease;
+}
+
+.contact-links i {
+    font-size: 24px;
 }
 
 .contact-links a:hover {
-    color: #ff4c4c; /* Red */
+    color: #ff4c4c; /* Red hover effect */
 }
+
 
 /* Footer */
 footer {
