@@ -7,262 +7,6 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400i&display=swap" rel="stylesheet">
-    <style>
-        /* General Styles */
-        body {
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-            color: #333;
-            background-color: #f4f7f6;
-        }
-
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            width: 90%;
-            margin: auto;
-            overflow: hidden;
-        }
-
-        /* Navigation Bar */
-        nav {
-            background-color: #2c3e50;
-            color: #fff;
-            height: 60px;
-            position: sticky;
-            top: 0;
-            z-index: 10;
-        }
-
-        nav .container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        nav .logo a {
-            font-size: 24px;
-            font-weight: 700;
-            color: #fff;
-        }
-
-        nav .nav-links {
-            list-style: none;
-        }
-
-        nav .nav-links li {
-            display: inline;
-            margin-left: 20px;
-        }
-
-        nav .nav-links a {
-            color: #fff;
-            font-weight: 500;
-        }
-
-        nav .nav-links a:hover {
-            color: #ecf0f1;
-        }
-
-        /* Hero Section */
-        .hero {
-            background: url('assets/hero-background.jpg') no-repeat center center/cover;
-            height: 400px;
-            color: #fff;
-            text-align: center;
-            position: relative;
-        }
-
-        .hero::after {
-            content: '';
-            background-color: rgba(0, 0, 0, 0.6);
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0;
-        }
-
-        .hero .container {
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .hero h2 {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 24px;
-        }
-
-        .social-links a {
-            color: #fff;
-            font-size: 24px;
-            margin: 0 10px;
-        }
-
-        .social-links a:hover {
-            color: #3498db;
-        }
-
-        /* Section Titles */
-        section h2 {
-            font-size: 36px;
-            margin-bottom: 20px;
-            text-align: center;
-            color: #2c3e50;
-        }
-
-        /* Projects Section */
-        .projects-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .project-card {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            width: calc(33% - 20px);
-            box-sizing: border-box;
-            border-radius: 5px;
-            overflow: hidden;
-            transition: box-shadow 0.3s ease;
-        }
-
-        .project-card:hover {
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .project-card img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-        }
-
-        .project-card h3 {
-            padding: 15px;
-            font-size: 24px;
-        }
-
-        .project-card p {
-            padding: 0 15px 15px 15px;
-            font-size: 16px;
-            color: #555;
-        }
-
-        .project-skills {
-            padding: 0 15px 15px 15px;
-            display: flex;
-            gap: 10px;
-        }
-
-        .project-skills img {
-            width: 30px;
-            height: 30px;
-        }
-
-        /* Coursework Section */
-        .coursework-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .course-category {
-            background-color: #fff;
-            padding: 20px;
-            width: calc(33% - 20px);
-            box-sizing: border-box;
-            border-radius: 5px;
-        }
-
-        .course-category h3 {
-            margin-bottom: 15px;
-            color: #3498db;
-        }
-
-        .course-category ul {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-
-        .course-category li {
-            margin-bottom: 10px;
-            color: #555;
-        }
-
-        /* Skills Section */
-        .skills-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-
-        .skill-item {
-            text-align: center;
-            width: 100px;
-        }
-
-        .skill-item img {
-            width: 60px;
-            height: 60px;
-            margin-bottom: 10px;
-        }
-
-        .skill-item p {
-            font-size: 14px;
-            color: #555;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #2c3e50;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 1000px) {
-            .project-card, .course-category {
-                width: calc(50% - 20px);
-            }
-        }
-
-        @media (max-width: 700px) {
-            nav .nav-links {
-                display: none;
-            }
-
-            .projects-grid, .coursework-grid {
-                flex-direction: column;
-            }
-
-            .project-card, .course-category {
-                width: 100%;
-            }
-
-            .hero h2 {
-                font-size: 32px;
-            }
-
-            .hero p {
-                font-size: 18px;
-            }
-        }
-    </style>
 </head>
 <body>
     <nav>
@@ -295,25 +39,18 @@
         </div>
     </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am a passionate and adaptable undergraduate with a strong foundation in Mathematics, Economics, and Computer Science Engineering. Bilingual in Spanish and English with hands-on experience in software development, IT support, and engineering roles within the construction industry, I integrate technical expertise into practical, real-world solutions.</p>
-        </div>
-    </section>
-
     <section id="projects">
         <div class="container">
             <h2>Projects</h2>
             <div class="projects-grid">
                 <!-- Project 1 -->
                 <div class="project-card">
-                    <img src="assets/firewall-project.jpg" alt="Firewall Protection Project">
+                    <img src="images/firewall-project.jpg" alt="Firewall Protection Project">
                     <h3><a href="https://github.com/demaya16/firewall-protection-ddos">Firewall Protection Against DDoS Attacks</a></h3>
                     <p>Developed a firewall using Python to protect networks against DDoS attacks by programming a POX controller and utilizing Mininet for network simulation.</p>
                     <div class="project-skills">
-                        <img src="assets/python-logo.png" alt="Python">
-                        <img src="assets/cybersecurity-logo.png" alt="Cybersecurity">
+                        <img src="images/python-logo.png" alt="Python">
+                        <img src="images/cybersecurity-logo.png" alt="Cybersecurity">
                     </div>
                 </div>
 
@@ -323,66 +60,64 @@
                     <h3><a href="https://github.com/demaya16/mathematical-simulations">Simulation of Mathematical Theorems</a></h3>
                     <p>Programmed simulations of fundamental mathematical and computer science theorems to model real-world scenarios and estimate their game-theoretical outcomes.</p>
                     <div class="project-skills">
-                        <img src="assets/python-logo.png" alt="Python">
-                        <img src="assets/matlab-logo.png" alt="MATLAB">
+                        <img src="images/python-logo.png" alt="Python">
+                        <img src="images/matlab-logo.png" alt="MATLAB">
                     </div>
                 </div>
 
                 <!-- Project 3 -->
                 <div class="project-card">
-                    <img src="assets/it-upgrade.jpg" alt="IT Infrastructure Upgrade">
+                    <img src="images/it-upgrade.jpg" alt="IT Infrastructure Upgrade">
                     <h3><a href="#">IT Infrastructure Upgrade at GM Construction</a></h3>
                     <p>Led a comprehensive IT infrastructure upgrade, enhancing network performance by 50% and reducing potential IT security threats by 60%.</p>
                     <div class="project-skills">
-                        <img src="assets/vmware-logo.png" alt="VMware">
-                        <img src="assets/hyper-v-logo.png" alt="Hyper-V">
-                        <img src="assets/fortinet-logo.png" alt="Fortinet">
+                        <img src="images/vmware-logo.png" alt="VMware">
+                        <img src="images/hyper-v-logo.png" alt="Hyper-V">
+                        <img src="images/fortinet-logo.png" alt="Fortinet">
                     </div>
                 </div>
 
                 <!-- Project 4 -->
                 <div class="project-card">
-                    <img src="assets/math-project.jpg" alt="Advanced Mathematics Project">
+                    <img src="images/math-project.jpg" alt="Advanced Mathematics Project">
                     <h3><a href="https://github.com/demaya16/advanced-mathematics-repo">Advanced Mathematics Repository</a></h3>
                     <p>Explore my advanced mathematics coursework covering Real Analysis, Linear Algebra, Combinatorics, and more. Includes LaTeX-formatted problem sets and solutions.</p>
                     <div class="project-skills">
-                        <img src="assets/latex-logo.png" alt="LaTeX">
-                        <img src="assets/math-logo.png" alt="Mathematics">
+                        <img src="images/latex-logo.png" alt="LaTeX">
+                        <img src="images/math-logo.png" alt="Mathematics">
                     </div>
                 </div>
 
                 <!-- Economics Repository -->
                 <div class="project-card">
-                    <img src="assets/economics-project.jpg" alt="Economics Repository">
+                    <img src="images/economics-project.jpg" alt="Economics Repository">
                     <h3><a href="https://github.com/demaya16/economics-repo">Economics Repository</a></h3>
                     <p>A deep dive into economic concepts, including microeconomics, econometrics, and game theory. Find detailed research papers and data analysis projects.</p>
                     <div class="project-skills">
-                        <img src="assets/r-logo.png" alt="R">
-                        <img src="assets/stata-logo.png" alt="Stata">
+                        <img src="images/r-logo.png" alt="R">
+                        <img src="images/stata-logo.png" alt="Stata">
                     </div>
                 </div>
 
                 <!-- Computer Science Repository -->
                 <div class="project-card">
-                    <img src="assets/computer-science-project.jpg" alt="Computer Science Repository">
+                    <img src="images/computer-science-project.jpg" alt="Computer Science Repository">
                     <h3><a href="https://github.com/demaya16/computer-science-repo">Computer Science Repository</a></h3>
                     <p>Explore my computer science coursework, including data structures, algorithms, and machine learning projects.</p>
                     <div class="project-skills">
-                        <img src="assets/python-logo.png" alt="Python">
-                        <img src="assets/cplusplus-logo.png" alt="C++">
-                        <img src="assets/matlab-logo.png" alt="MATLAB">
+                        <img src="images/python-logo.png" alt="Python">
+                        <img src="images/cplusplus-logo.png" alt="C++">
+                        <img src="images/matlab-logo.png" alt="MATLAB">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Other sections here: Experience, Coursework, Skills, Education, Contact, Footer -->
-    <!-- Footer section -->
-
-
-
+    <!-- Coursework, Skills, Education, Contact, and Footer sections remain unchanged -->
 </body>
+</html>
+
     <!-- Coursework Section -->
     <section id="coursework">
         <div class="container">
