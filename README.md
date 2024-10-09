@@ -1,4 +1,4 @@
-Here's a revised version of your README to ensure it directs people correctly and explains everything briefly yet effectively:
+Here’s the updated README with the **Economics Repository** included:
 
 ---
 
@@ -19,55 +19,35 @@ Here's a revised version of your README to ensure it directs people correctly an
   </a>
 </p>
 
-Welcome to my professional portfolio repository! Here you can explore my wide range of projects that highlight my skills and expertise across **Mathematics**, **Economics**, **Computer Science**, and **Engineering**, including hands-on experience with **IT Infrastructure**, **Construction** workflows, and advanced **simulation modeling**.
+Welcome to my professional portfolio repository! Here, you can explore key repositories showcasing my skills and expertise across **Mathematics**, **Economics**, **Computer Science**, and **Engineering**, including **IT Infrastructure** and **Construction** projects.
 
 **[Visit My Portfolio Website](https://demaya16.github.io/Devin_Projects/)**
 
 ---
 
-## About Me
+## Key Repositories
 
-I'm an adaptable undergraduate with a solid foundation in **Mathematics**, **Economics**, and **Computer Science Engineering**. My diverse hands-on experience includes roles in **software development**, **IT support**, and **construction engineering**, where I've successfully integrated technical skills into real-world applications.
+### 1. **Computer Science Repository**
+Explore my work in **computer science**, including **networking**, **firewall protection**, and **software development**. This repository showcases my projects involving **Python**, **network simulations**, and advanced computing techniques.  
+[View Repository](https://github.com/demaya16/computer-science-repo)
 
----
+### 2. **Advanced Mathematics Simulations Repository**
+Dive into my mathematical and computer science simulations, where I model real-world scenarios using key mathematical theorems and game theory concepts. This repository is home to my **Python** and **MATLAB** simulations.  
+[View Repository](https://github.com/demaya16/advanced-mathematics-repo)
 
-## Key Projects
+### 3. **Economics Repository**
+This repository showcases my in-depth research and projects on **economics**, focusing on **microeconomics**, **econometrics**, and **game theory**. It contains data analysis projects and research papers conducted using modern tools like **R**, **Stata**, and **Excel**.  
+[View Repository](https://github.com/demaya16/economics-repo)
 
-### 1. **Firewall Protection Against DDoS Attacks**
-Developed a firewall to safeguard networks from DDoS attacks by programming a POX controller and utilizing Mininet for network simulations.  
-**Technologies Used:** Python, POX Controller, Mininet  
-[View Project](https://github.com/demaya16/computer-science-repo/tree/main/Networking/FirewallProject)
-
-### 2. **Simulation of Mathematical Theorems**
-Created simulations of key mathematical and computer science theorems to model real-world scenarios, providing insight into game theory and other analytical outcomes.  
-**Technologies Used:** Python, MATLAB  
-[View Project](https://github.com/demaya16/advanced-mathematics-repo/tree/main/MathSimulations)
-
-### 3. **Construction & Engineering Repository**
-Showcases a variety of construction projects where I've worked across trades, including **Mechanical**, **Electrical**, and **Civil Engineering**, with experience in **project management**, **CAD design**, and sustainability-focused solutions.  
-**Technologies Used:** AutoCAD, Revit, AWS, Confluence  
-[View Project](https://github.com/demaya16/construction-engineering-repo)
-
-### 4. **IT Infrastructure Upgrade at GM Construction**
-Led a company-wide IT infrastructure upgrade at GM Construction, enhancing network performance and security while implementing cloud solutions and improving safety systems.  
-**Technologies Used:** VMware vSphere, Microsoft Hyper-V, Fortinet Firewalls, Azure  
-[View Project](https://github.com/demaya16/it-upgrade)
-
-### 5. **Economics Repository**
-Delved into **microeconomics**, **game theory**, and **econometrics**, showcasing research papers and data analysis projects using modern economic tools.  
-**Technologies Used:** R, Stata, Excel  
-[View Project](https://github.com/demaya16/economics-repo)
-
-### 6. **The Ultimate Warrior Video Game**
-Designed a narrative-driven 2D exploration and combat game where players master martial arts from various countries, incorporating deep cultural elements.  
-**Technologies Used:** GDevelop, JavaScript, Sound Design  
-[View Project](https://github.com/demaya16/computer-science-repo/tree/main/GamesDesigned/UltimateWarriorVideoGame)
+### 4. **Construction & Engineering Repository**
+Showcases my hands-on experience in **construction and engineering** projects, including work across various trades such as **mechanical**, **electrical**, and **civil engineering**. Features **project management workflows**, **CAD designs**, and **sustainability-focused solutions**.  
+[View Repository](https://github.com/demaya16/construction-engineering-repo)
 
 ---
 
 ## Skills
 
-- **Programming Languages:** Python, C/C++, R, MATLAB, JavaScript, SQL
+- **Programming Languages:** Python, C/C++, R, MATLAB, SQL, JavaScript
 - **Engineering Tools:** AutoCAD, Revit, Procore, Excel, Stata, Tableau
 - **Domains:** Machine Learning, IT, Data Analysis, Cybersecurity, Networking, Project Management
 - **Mathematical Expertise:** Advanced Mathematics, Econometrics, Statistical Analysis, Simulation
